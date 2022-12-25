@@ -1,0 +1,19 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Главная страница{% endblock %}
+
+
+{% block content %}
+    <div class="features">
+        <h1>Главная страница</h1>
+        <p>Доброго времени суток, я студент группы ИСТбд-21. Рад приветствовать на моём сайте - визитке! </p>
+        <form action="{% url 'about' %}" target="">
+        <button class="btn btn-warning" >На страницу про меня</button>
+        </form>
+    </div>
+
+
+
+{% endblock %}
+
+
